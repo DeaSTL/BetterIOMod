@@ -8,6 +8,9 @@
   "variants": {
     "normal": { "model": "cube_all" },
     "inventory": { "model": "cube_all" },
-    "explode": { "model": "cube_all" }
+    "explode": {
+      "true":  { "model": "betterio:stupid_tnt" },
+      "false": { "model": "betterio:stupid_tnt" }
+    }
   }
 }

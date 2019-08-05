@@ -3,6 +3,7 @@ package com.deastl.betterio.block;
 import com.deastl.betterio.BetterIO;
 import com.deastl.betterio.init.ModBlocks;
 import com.deastl.betterio.init.ModItems;
+import com.deastl.betterio.utils.IHasModel;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -16,6 +17,7 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.Explosion;
 import net.minecraft.world.World;
+
 import net.minecraft.item.Item;
 import net.minecraftforge.event.world.BlockEvent.BreakEvent;
 
@@ -23,7 +25,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 import java.util.Random;
 
-public class BlockStupidTNT extends BlockTNT {
+public class BlockStupidTNT extends BlockTNT implements IHasModel {
 
     public BlockStupidTNT(String name, Material material){
         super();
@@ -37,7 +39,7 @@ public class BlockStupidTNT extends BlockTNT {
         setCreativeTab(CreativeTabs.REDSTONE);
         ModBlocks.BLOCKS.add(this);
         ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
-        setTickRandomly(true);
+
 
 
     }
@@ -95,6 +97,11 @@ public class BlockStupidTNT extends BlockTNT {
                 }
             }
         }
+    }
+    @Override
+    public void registerModels()
+    {
+        BetterIO.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
     }
 
 
