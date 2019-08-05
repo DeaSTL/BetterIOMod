@@ -15,9 +15,9 @@ This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava
+:sourceMainJava UP-TO-DATE
 :compileJava
-:processResources
+:processResources UP-TO-DATE
 :classes
 :jar
 :getVersionJson
@@ -25,125 +25,97 @@ This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril
 :extractUserdev UP-TO-DATE
 :getAssetIndex UP-TO-DATE
 :getAssets
+Current status: 1302/1305   99%
 :makeStart
 :runClient
-[22:21:14] [main/INFO] [GradleStart]: Extra: []
-[22:21:14] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/DeaSTL/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[22:21:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[22:21:14] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[22:21:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[22:21:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[22:21:14] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
-[22:21:14] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_191\jre
-[22:21:14] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[22:21:14] [main/ERROR] [FML]: Full: C:\Users\DeaSTL\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[22:21:14] [main/ERROR] [FML]: Trimmed: c:/users/deastl/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[22:21:14] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[22:21:14] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-2019-08-04 22:21:15,193 main WARN Disabling terminal, you're running in an unsupported environment.
-[22:21:15] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[22:21:15] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[22:21:15] [main/INFO] [FML]: Searching C:\Users\DeaSTL\Google Drive\froge mod test\run\.\mods for mods
-[22:21:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[22:21:15] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[22:21:15] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[22:21:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:21:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[22:21:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[22:21:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:21:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:21:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:21:15] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[22:21:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:21:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[22:21:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[22:21:16] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[22:21:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[22:21:16] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[22:21:16] [main/INFO] [minecraft/Minecraft]: Setting user: Player261
-[22:21:18] [main/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
-[22:21:18] [main/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
-[22:21:20] [main/INFO] [FML]: -- System Details --
+[01:01:08] [main/INFO] [GradleStart]: Extra: []
+[01:01:08] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/DeaSTL/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[01:01:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:01:08] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:01:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[01:01:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:01:08] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[01:01:08] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_191\jre
+[01:01:08] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[01:01:08] [main/ERROR] [FML]: Full: C:\Users\DeaSTL\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[01:01:08] [main/ERROR] [FML]: Trimmed: c:/users/deastl/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[01:01:08] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[01:01:08] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+2019-08-05 01:01:08,966 main WARN Disabling terminal, you're running in an unsupported environment.
+[01:01:08] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[01:01:08] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[01:01:08] [main/INFO] [FML]: Searching C:\Users\DeaSTL\Desktop\BetterIOMod\run\.\mods for mods
+[01:01:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[01:01:08] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[01:01:08] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[01:01:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:01:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:01:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[01:01:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:01:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:01:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:01:09] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[01:01:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:01:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:01:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[01:01:09] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:01:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:01:09] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[01:01:10] [main/INFO] [minecraft/Minecraft]: Setting user: Player108
+[01:01:12] [main/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[01:01:12] [main/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
+[01:01:14] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_191, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 207243680 bytes (197 MB) / 742916096 bytes (708 MB) up to 7621050368 bytes (7268 MB)
+	Memory: 199113848 bytes (189 MB) / 725090304 bytes (691 MB) up to 7621050368 bytes (7268 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 430.86' Renderer: 'GeForce GTX 1060 6GB/PCIe/SSE2'
-[22:21:20] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
-[22:21:20] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[22:21:20] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[22:21:20] [main/INFO] [FML]: Searching C:\Users\DeaSTL\Google Drive\froge mod test\run\.\mods for mods
-[22:21:22] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[22:21:22] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, betterio] at CLIENT
-[22:21:22] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, betterio] at SERVER
-[22:21:22] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 226372400 nanos
-[22:21:22] [main/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better IO
-[22:21:23] [main/INFO] [FML]: Processing ObjectHolder annotations
-[22:21:23] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
-[22:21:23] [main/INFO] [FML]: Identifying ItemStackHolder annotations
-[22:21:23] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
-[22:21:23] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
-[22:21:23] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[22:21:23] [main/INFO] [FML]: Applying holder lookups
-[22:21:23] [main/INFO] [FML]: Holder lookups applied
-[22:21:23] [main/INFO] [FML]: Applying holder lookups
-[22:21:23] [main/INFO] [FML]: Holder lookups applied
-[22:21:23] [main/INFO] [FML]: Applying holder lookups
-[22:21:23] [main/INFO] [FML]: Holder lookups applied
-[22:21:23] [main/INFO] [FML]: Applying holder lookups
-[22:21:23] [main/INFO] [FML]: Holder lookups applied
-[22:21:23] [main/INFO] [FML]: Injecting itemstacks
-[22:21:23] [main/INFO] [FML]: Itemstack injection complete
-[22:21:23] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[22:21:25] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
-[22:21:25] [Thread-5/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
-[22:21:25] [Thread-5/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[22:21:25] [Thread-5/INFO] [minecraft/SoundManager]: OpenAL initialized.
-[22:21:26] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
-[22:21:29] [main/INFO] [FML]: Max texture size: 16384
-[22:21:30] [main/INFO] [minecraft/TextureMap]: Created: 512x512 textures-atlas
-[22:21:30] [main/ERROR] [FML]: Exception loading model for variant betterio:stupid_tnt#inventory for item "betterio:stupid_tnt", normal location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model betterio:item/stupid_tnt with loader VanillaLoader.INSTANCE, skipping
+[01:01:14] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[01:01:14] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[01:01:14] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[01:01:14] [main/INFO] [FML]: Searching C:\Users\DeaSTL\Desktop\BetterIOMod\run\.\mods for mods
+[01:01:15] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[01:01:16] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, betterio] at CLIENT
+[01:01:16] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, betterio] at SERVER
+[01:01:16] [main/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better IO
+[01:01:16] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 224545800 nanos
+[01:01:16] [main/INFO] [FML]: Processing ObjectHolder annotations
+[01:01:16] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[01:01:16] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[01:01:16] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[01:01:16] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[01:01:16] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01:01:16] [main/INFO] [FML]: Applying holder lookups
+[01:01:16] [main/INFO] [FML]: Holder lookups applied
+[01:01:16] [main/INFO] [FML]: Applying holder lookups
+[01:01:16] [main/INFO] [FML]: Holder lookups applied
+[01:01:16] [main/INFO] [FML]: Applying holder lookups
+[01:01:16] [main/INFO] [FML]: Holder lookups applied
+[01:01:16] [main/INFO] [FML]: Applying holder lookups
+[01:01:16] [main/INFO] [FML]: Holder lookups applied
+[01:01:16] [main/INFO] [FML]: Injecting itemstacks
+[01:01:16] [main/INFO] [FML]: Itemstack injection complete
+[01:01:16] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[01:01:19] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
+[01:01:19] [Thread-5/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
+[01:01:19] [Thread-5/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:01:19] [Thread-5/INFO] [minecraft/SoundManager]: OpenAL initialized.
+[01:01:19] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
+[01:01:23] [main/INFO] [FML]: Max texture size: 16384
+[01:01:23] [main/INFO] [minecraft/TextureMap]: Created: 512x512 textures-atlas
+[01:01:24] [main/ERROR] [FML]: Exception loading model for variant betterio:stupid_tnt#explode=true for blockstate "betterio:stupid_tnt[explode=true]"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model betterio:stupid_tnt#explode=true with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.io.FileNotFoundException: betterio:models/item/stupid_tnt.json
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:69) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[22:21:30] [main/ERROR] [FML]: Exception loading model for variant betterio:stupid_tnt#inventory for item "betterio:stupid_tnt", blockstate location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model betterio:stupid_tnt#inventory with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
 	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
@@ -165,11 +137,12 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[22:21:30] [main/ERROR] [FML]: Exception loading blockstate for the variant betterio:stupid_tnt#inventory: 
-java.lang.Exception: Could not load model definition for variant betterio:stupid_tnt
-	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
+	... 21 more
+[01:01:24] [main/ERROR] [FML]: Exception loading model for variant betterio:stupid_tnt#explode=false for blockstate "betterio:stupid_tnt[explode=false]"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model betterio:stupid_tnt#explode=false with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
 	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
@@ -181,4 +154,32 @@ java.lang.Exception: Could not load model definition for variant betterio:stupid
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
-	at net.minecraft.launchwrapper.La
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[01:01:24] [main/INFO] [FML]: Applying holder lookups
+[01:01:24] [main/INFO] [FML]: Holder lookups applied
+[01:01:24] [main/INFO] [betterio]: DIRT BLOCK >> minecraft:dirt
+[01:01:24] [main/INFO] [FML]: Injecting itemstacks
+[01:01:24] [main/INFO] [FML]: Itemstack injection complete
+[01:01:25] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[01:01:25] [main/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[01:01:25] [main/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
+[01:01:25] [Realms Notification Availability checker #1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[01:03:20] [main/INFO] [minecraft/Minecraft]: Stopping!
+[01:03:20] [main/INFO] [minecraft/SoundManager]: SoundSystem shutting down...
+[01:03:20] [main/WARN] [minecraft/SoundManager]: Author: Paul Lamb, www.paulscode.com
+
+BUILD SUCCESSFUL
+
+Total time: 2 mins 25.555 secs
